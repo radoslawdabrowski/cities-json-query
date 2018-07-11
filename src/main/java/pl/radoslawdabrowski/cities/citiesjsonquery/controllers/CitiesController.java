@@ -1,13 +1,13 @@
 package pl.radoslawdabrowski.cities.citiesjsonquery.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 import pl.radoslawdabrowski.cities.citiesjsonquery.constraints.Directory;
 import pl.radoslawdabrowski.cities.citiesjsonquery.entities.City;
-import pl.radoslawdabrowski.cities.citiesjsonquery.entities.CityDto;
+import pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto.CityDto;
+import pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto.result.Meta;
+import pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto.result.Pagination;
 import pl.radoslawdabrowski.cities.citiesjsonquery.services.CitiesService;
 
 import java.util.ArrayList;
@@ -31,6 +31,11 @@ public class CitiesController {
     @GetMapping(path = Directory.URI_CITIES_SEARCH)
     public ArrayList<CityDto> search(@PathVariable(name = "phrase") String phrase){
         return citiesService.search(phrase);
+    }
+
+    @PostMapping(path = Directory.URI_CITIES_PAGINATE, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public Pagination paginate(@RequestBody Meta meta) {
+        return citiesService.paginate(meta);
     }
 
 }

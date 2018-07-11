@@ -1,4 +1,4 @@
-package pl.radoslawdabrowski.cities.citiesjsonquery.entities;
+package pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto;
 
 import lombok.Data;
 

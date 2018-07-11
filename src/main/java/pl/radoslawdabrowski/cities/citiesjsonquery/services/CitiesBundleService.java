@@ -1,7 +1,7 @@
 package pl.radoslawdabrowski.cities.citiesjsonquery.services;
 
 import pl.radoslawdabrowski.cities.citiesjsonquery.entities.City;
-import pl.radoslawdabrowski.cities.citiesjsonquery.entities.CityDto;
+import pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto.CityDto;
 
 import java.util.ArrayList;
 

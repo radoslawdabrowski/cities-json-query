@@ -7,7 +7,7 @@ import lombok.Getter;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import pl.radoslawdabrowski.cities.citiesjsonquery.entities.City;
-import pl.radoslawdabrowski.cities.citiesjsonquery.entities.CityDto;
+import pl.radoslawdabrowski.cities.citiesjsonquery.entities.dto.CityDto;
 import pl.radoslawdabrowski.cities.citiesjsonquery.services.CitiesBundleService;
 
 import java.io.FileInputStream;
