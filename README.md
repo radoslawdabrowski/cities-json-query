@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=travis-ci)](https://travis-ci.org/radoslawdabrowski/cities-json-query)
 [![Coverage](https://img.shields.io/codecov/c/github/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=codecov)](https://codecov.io/gh/radoslawdabrowski/cities-json-query)
-[![Codacy](https://img.shields.io/codacy/coverage/e4eff4e0aa364b528837f34679e6027c.svg?style=flat-square&logo=codacy)](https://app.codacy.com/project/radoslawdabrowski/cities-json-query)
+[![Codacy](https://img.shields.io/codacy/coverage/40706e76565e4ebca0353ca2d97bcb90.svg?style=flat-square&logo=codacy)](https://app.codacy.com/project/radoslawdabrowski/cities-json-query)
 
 
 
