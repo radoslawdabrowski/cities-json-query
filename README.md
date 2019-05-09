@@ -1,5 +1,9 @@
 # cities-json-query
 
+[![Build Status](https://img.shields.io/travis/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=travis-ci)](https://travis-ci.org/radoslawdabrowski/cities-json-query)
+[![Coverage](https://img.shields.io/codecov/c/github/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=codecov)](https://codecov.io/gh/radoslawdabrowski/cities-json-query)
+
+
 REST Api based on [Spring Boot](http://projects.spring.io/spring-boot/)
 
 ## Requirements
