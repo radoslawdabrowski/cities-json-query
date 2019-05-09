@@ -1,9 +1,14 @@
 language: java
-jdk: oraclejdk8
+jdk: oraclejdk11
+sudo: true
+dist: trusty
  
 script:
   - ./mvnw clean install -B
   - ./mvnw cobertura:cobertura
+
+before_install:
+  - chmod +x mvnw
 
 after_success:
  - bash <(curl -s https://codecov.io/bash)
