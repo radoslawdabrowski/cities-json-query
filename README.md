@@ -49,4 +49,4 @@ oc expose cities-json-query --hostname=www.example.com
 
 ## Copyright
 
-Released under the Apache License 2.0. See the [LICENSE](https://github.com/codecentric/springboot-sample-app/blob/master/LICENSE) file.
+Released under the Apache License 2.0. See the [LICENSE](https://github.com/radoslawdabrowski/cities-json-query/blob/master/LICENSE) file.
