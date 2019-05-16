@@ -4,9 +4,7 @@ sudo: true
 dist: trusty
  
 script:
-  - ./mvnw compile
-  - ./mvnw test
-  - ./mvnw package
+  - ./mvnw clean install -B
 
 before_install:
   - chmod +x mvnw
