@@ -1,7 +1,7 @@
 # cities-json-query
 
 [![Build Status](https://img.shields.io/travis/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=travis-ci)](https://travis-ci.org/radoslawdabrowski/cities-json-query)
-[![Coverage](https://img.shields.io/codecov/c/github/radoslawdabrowski/cities-json-query.svg?style=flat-square&logo=codecov)](https://codecov.io/gh/radoslawdabrowski/cities-json-query)
+[![Codacy Badge](https://img.shields.io/codacy/coverage/40706e76565e4ebca0353ca2d97bcb90.svg?style=flat-square&logo=codacy)](https://www.codacy.com/app/radoslawdabrowski/cities-json-query?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=radoslawdabrowski/cities-json-query&amp;utm_campaign=Badge_Coverage)
 [![Codacy](https://img.shields.io/codacy/grade/40706e76565e4ebca0353ca2d97bcb90.svg?style=flat-square&logo=codacy)](https://www.codacy.com/app/radoslawdabrowski/cities-json-query?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=radoslawdabrowski/cities-json-query&amp;utm_campaign=Badge_Grade)
 ![GitHub](https://img.shields.io/github/license/radoslawdabrowski/cities-json-query.svg?style=flat-square)
 
